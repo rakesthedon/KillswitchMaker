@@ -9,19 +9,42 @@
 /* Begin PBXBuildFile section */
 		8A313405282AC72F00C4C859 /* KillswitchMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3133F5282AC72D00C4C859 /* KillswitchMakerApp.swift */; };
 		8A313406282AC72F00C4C859 /* KillswitchMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3133F5282AC72D00C4C859 /* KillswitchMakerApp.swift */; };
-		8A313407282AC72F00C4C859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3133F6282AC72D00C4C859 /* ContentView.swift */; };
-		8A313408282AC72F00C4C859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3133F6282AC72D00C4C859 /* ContentView.swift */; };
+		8A313407282AC72F00C4C859 /* KillswitchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3133F6282AC72D00C4C859 /* KillswitchListView.swift */; };
+		8A313408282AC72F00C4C859 /* KillswitchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3133F6282AC72D00C4C859 /* KillswitchListView.swift */; };
 		8A313409282AC72F00C4C859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3133F7282AC72F00C4C859 /* Assets.xcassets */; };
 		8A31340A282AC72F00C4C859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3133F7282AC72F00C4C859 /* Assets.xcassets */; };
+		8A313419282AC88A00C4C859 /* KillSwitchApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313418282AC88A00C4C859 /* KillSwitchApiService.swift */; };
+		8A313421282ACC1200C4C859 /* KillswitchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313420282ACC1200C4C859 /* KillswitchListViewModel.swift */; };
+		8A313422282ACC1200C4C859 /* KillswitchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313420282ACC1200C4C859 /* KillswitchListViewModel.swift */; };
+		8A313426282AD6AB00C4C859 /* KillSwitchApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313418282AC88A00C4C859 /* KillSwitchApiService.swift */; };
+		8A313428282ADB0F00C4C859 /* KillSwitchCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313427282ADB0F00C4C859 /* KillSwitchCreationView.swift */; };
+		8A313429282ADB0F00C4C859 /* KillSwitchCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313427282ADB0F00C4C859 /* KillSwitchCreationView.swift */; };
+		8A31342D282ADB3200C4C859 /* ApplicationNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31342C282ADB3200C4C859 /* ApplicationNavigationView.swift */; };
+		8A31342E282ADB3200C4C859 /* ApplicationNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31342C282ADB3200C4C859 /* ApplicationNavigationView.swift */; };
+		8A313430282AE16100C4C859 /* KillSwitchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31342F282AE16100C4C859 /* KillSwitchDetailView.swift */; };
+		8A313431282AE16100C4C859 /* KillSwitchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31342F282AE16100C4C859 /* KillSwitchDetailView.swift */; };
+		8A313437282AFABA00C4C859 /* KillSwitchCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313436282AFABA00C4C859 /* KillSwitchCreationViewModel.swift */; };
+		8A313438282AFABA00C4C859 /* KillSwitchCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A313436282AFABA00C4C859 /* KillSwitchCreationViewModel.swift */; };
+		8A4E3C85282C4F8D001D664B /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E3C84282C4F8D001D664B /* URL+Extensions.swift */; };
+		8A4E3C86282C4F91001D664B /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E3C84282C4F8D001D664B /* URL+Extensions.swift */; };
+		8AF6E56B282B26CF00B17163 /* KillSwitchCoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AF6E56A282B26CF00B17163 /* KillSwitchCoreKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A3133F5282AC72D00C4C859 /* KillswitchMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillswitchMakerApp.swift; sourceTree = "<group>"; };
-		8A3133F6282AC72D00C4C859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A3133F6282AC72D00C4C859 /* KillswitchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillswitchListView.swift; sourceTree = "<group>"; };
 		8A3133F7282AC72F00C4C859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3133FC282AC72F00C4C859 /* KillswitchMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KillswitchMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A313402282AC72F00C4C859 /* KillswitchMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KillswitchMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A313404282AC72F00C4C859 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8A313418282AC88A00C4C859 /* KillSwitchApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchApiService.swift; sourceTree = "<group>"; };
+		8A313420282ACC1200C4C859 /* KillswitchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillswitchListViewModel.swift; sourceTree = "<group>"; };
+		8A313427282ADB0F00C4C859 /* KillSwitchCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchCreationView.swift; sourceTree = "<group>"; };
+		8A31342C282ADB3200C4C859 /* ApplicationNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationNavigationView.swift; sourceTree = "<group>"; };
+		8A31342F282AE16100C4C859 /* KillSwitchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchDetailView.swift; sourceTree = "<group>"; };
+		8A313432282AEBC100C4C859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A313436282AFABA00C4C859 /* KillSwitchCreationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchCreationViewModel.swift; sourceTree = "<group>"; };
+		8A4E3C84282C4F8D001D664B /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF6E56B282B26CF00B17163 /* KillSwitchCoreKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,17 +69,22 @@
 		8A3133EF282AC72D00C4C859 = {
 			isa = PBXGroup;
 			children = (
+				8A313413282AC74000C4C859 /* iOS */,
 				8A3133F4282AC72D00C4C859 /* Shared */,
 				8A313403282AC72F00C4C859 /* macOS */,
 				8A3133FD282AC72F00C4C859 /* Products */,
+				8A313423282AD69F00C4C859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8A3133F4282AC72D00C4C859 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8A4E3C83282C4F80001D664B /* Extensions */,
+				8A31341E282ACBE700C4C859 /* Components */,
+				8A31341A282AC90F00C4C859 /* Config */,
+				8A313417282AC87400C4C859 /* Service */,
 				8A3133F5282AC72D00C4C859 /* KillswitchMakerApp.swift */,
-				8A3133F6282AC72D00C4C859 /* ContentView.swift */,
 				8A3133F7282AC72F00C4C859 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +107,81 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		8A313413282AC74000C4C859 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A313432282AEBC100C4C859 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8A313417282AC87400C4C859 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8A313418282AC88A00C4C859 /* KillSwitchApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8A31341A282AC90F00C4C859 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8A31341E282ACBE700C4C859 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8A31342B282ADB2400C4C859 /* Navigation */,
+				8A31342A282ADB1E00C4C859 /* Creation */,
+				8A31341F282ACBF800C4C859 /* Killswitch List */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8A31341F282ACBF800C4C859 /* Killswitch List */ = {
+			isa = PBXGroup;
+			children = (
+				8A3133F6282AC72D00C4C859 /* KillswitchListView.swift */,
+				8A31342F282AE16100C4C859 /* KillSwitchDetailView.swift */,
+				8A313420282ACC1200C4C859 /* KillswitchListViewModel.swift */,
+			);
+			path = "Killswitch List";
+			sourceTree = "<group>";
+		};
+		8A313423282AD69F00C4C859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A31342A282ADB1E00C4C859 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				8A313427282ADB0F00C4C859 /* KillSwitchCreationView.swift */,
+				8A313436282AFABA00C4C859 /* KillSwitchCreationViewModel.swift */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		8A31342B282ADB2400C4C859 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8A31342C282ADB3200C4C859 /* ApplicationNavigationView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		8A4E3C83282C4F80001D664B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E3C84282C4F8D001D664B /* URL+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +198,9 @@
 			dependencies = (
 			);
 			name = "KillswitchMaker (iOS)";
+			packageProductDependencies = (
+				8AF6E56A282B26CF00B17163 /* KillSwitchCoreKit */,
+			);
 			productName = "KillswitchMaker (iOS)";
 			productReference = 8A3133FC282AC72F00C4C859 /* KillswitchMaker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +218,8 @@
 			dependencies = (
 			);
 			name = "KillswitchMaker (macOS)";
+			packageProductDependencies = (
+			);
 			productName = "KillswitchMaker (macOS)";
 			productReference = 8A313402282AC72F00C4C859 /* KillswitchMaker.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 8A3133EF282AC72D00C4C859;
+			packageReferences = (
+				8AF6E569282B26CF00B17163 /* XCRemoteSwiftPackageReference "KillSwitchCoreKit" */,
+			);
 			productRefGroup = 8A3133FD282AC72F00C4C859 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,7 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A313407282AC72F00C4C859 /* ContentView.swift in Sources */,
+				8A313419282AC88A00C4C859 /* KillSwitchApiService.swift in Sources */,
+				8A313437282AFABA00C4C859 /* KillSwitchCreationViewModel.swift in Sources */,
+				8A313428282ADB0F00C4C859 /* KillSwitchCreationView.swift in Sources */,
+				8A313407282AC72F00C4C859 /* KillswitchListView.swift in Sources */,
+				8A4E3C85282C4F8D001D664B /* URL+Extensions.swift in Sources */,
+				8A313430282AE16100C4C859 /* KillSwitchDetailView.swift in Sources */,
+				8A31342D282ADB3200C4C859 /* ApplicationNavigationView.swift in Sources */,
+				8A313421282ACC1200C4C859 /* KillswitchListViewModel.swift in Sources */,
 				8A313405282AC72F00C4C859 /* KillswitchMakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A313408282AC72F00C4C859 /* ContentView.swift in Sources */,
+				8A313408282AC72F00C4C859 /* KillswitchListView.swift in Sources */,
+				8A313438282AFABA00C4C859 /* KillSwitchCreationViewModel.swift in Sources */,
+				8A313429282ADB0F00C4C859 /* KillSwitchCreationView.swift in Sources */,
+				8A313422282ACC1200C4C859 /* KillswitchListViewModel.swift in Sources */,
+				8A4E3C86282C4F91001D664B /* URL+Extensions.swift in Sources */,
+				8A313431282AE16100C4C859 /* KillSwitchDetailView.swift in Sources */,
+				8A31342E282ADB3200C4C859 /* ApplicationNavigationView.swift in Sources */,
+				8A313426282AD6AB00C4C859 /* KillSwitchApiService.swift in Sources */,
 				8A313406282AC72F00C4C859 /* KillswitchMakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,9 +435,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RJTQGATJ7B;
+				DEVELOPMENT_TEAM = 7RX27UE56F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,9 +466,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RJTQGATJ7B;
+				DEVELOPMENT_TEAM = 7RX27UE56F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +578,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8AF6E569282B26CF00B17163 /* XCRemoteSwiftPackageReference "KillSwitchCoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rakesthedon/KillSwitchCoreKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8AF6E56A282B26CF00B17163 /* KillSwitchCoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AF6E569282B26CF00B17163 /* XCRemoteSwiftPackageReference "KillSwitchCoreKit" */;
+			productName = KillSwitchCoreKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A3133F0282AC72D00C4C859 /* Project object */;
 }
